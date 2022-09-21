@@ -1,8 +1,10 @@
 <h1>💻 Sobre o desafio</h1>
 <p>Neste <a href="https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3">desafio</a> você vai criar um formulário de login.</p>
 <h1>Layout</h1>
-<img src="https://efficient-sloth-d85.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb9152861-d6a9-4eda-8a13-cc31c03eba30%2Fmobile-dark-yellow.png?table=block&id=76a96c45-5f75-4dee-8ddf-81978384630f&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=380&userId=&cache=v2" style="width: 20vw">
-<img src="https://efficient-sloth-d85.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d547ce1-ab56-4764-8b3f-9eb530e85e7d%2Fweb-dark-yellow.png?table=block&id=3a77fada-f0e5-4c45-93bc-de8546624d4f&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=2000&userId=&cache=v2" style="width: 70vw">
+<div style="display: flex">
+<img src="https://efficient-sloth-d85.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb9152861-d6a9-4eda-8a13-cc31c03eba30%2Fmobile-dark-yellow.png?table=block&id=76a96c45-5f75-4dee-8ddf-81978384630f&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=380&userId=&cache=v2" style="width: 25%">
+<img src="https://efficient-sloth-d85.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d547ce1-ab56-4764-8b3f-9eb530e85e7d%2Fweb-dark-yellow.png?table=block&id=3a77fada-f0e5-4c45-93bc-de8546624d4f&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=2000&userId=&cache=v2" style="width: 70%">
+</div>
 <h1>✅ Requisitos</h1>
 <ul>
 <li>Você deve seguir o <a href="https://www.figma.com/file/SX8XFyC5fAY09ai8Oykz0T/DD-%2F-Login-Form---CSS/duplicate">layout do Figma.</a></li>
