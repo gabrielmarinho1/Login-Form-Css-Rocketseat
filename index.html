@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,47 @@
     <link rel="shortcut icon" href="/Login-Form-Css-Rocketseat/images/favicon.ico" type="image/x-icon">
     <title>Login Form</title>
 </head>
+
 <body>
-    <img src="/Login-Form-Css-Rocketseat/images/check.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/eye.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/lock-focus.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/lock.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/log-in.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/logo.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/mail-focus.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/mail.svg">
-    <img src="/Login-Form-Css-Rocketseat/images/side-image-2x.jpg">
-    <img src="/Login-Form-Css-Rocketseat/images/side-image.jpg">
+    <img id="logo" src="/Login-Form-Css-Rocketseat/images/logo.svg">
+    <main class="flex-center">
+        <section class="login">
+            <form>
+                <header>
+                    <div class="title flex-left">
+                        <img src="/Login-Form-Css-Rocketseat/images/log-in.svg">
+                        <p class="font-poppins semi-bold ">Faça seu login</p>
+                    </div>
+                    <p class="font-roboto medium text-base">Entre com suas informações de cadastro</p>
+                </header>
+                <section class="user-info">
+                    <label class="font-poppins medium text-base" for="email">E-mail
+                        <input id="email" class="font-roboto regular" type="email" name="email"
+                            placeholder="Digite seu e-mail">
+                    </label><br>
+
+                    <label class="font-poppins medium text-base" for="password">Senha
+                        <input id="password" class="font-roboto regular" type="password" name="password"
+                            placeholder="Digite sua senha">
+                    </label><br>
+
+                    </div>
+                </section>
+                <section class="user-login flex-center">
+                    <div class="checkbox flex-center">
+                        <input type="checkbox" name="save-user" id="save-user">
+                        <label class="font-roboto regular text-base" for="save-user">Lembre-me</label>
+                    </div>
+                    <a class="font-poppins semi-bold" id="forgot-password" href="#">Esqueci minha senha</a>
+                </section>
+                <button class="font-poppins semi-bold">Entrar</button>
+                <p class="font-poppins regular">Não tem uma conta?<a class="semi-bold" href="#">Registre-se</a></p>
+            </form>
+        </section>
+    </main>
+    <div class="side-image">
+        <img src="/Login-Form-Css-Rocketseat/images/side-image.jpg">
+    </div>
 </body>
+
 </html>

@@ -5,10 +5,16 @@ Font Weight: 400 e 500 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: 0;
+}
+
+input[type="password"]::-ms-reveal {
+    content: url(/Login-Form-Css-Rocketseat/images/eye.svg);
+    width: 1.25em;
+    height: 1.25em;
 }
 
 :root {
@@ -17,4 +23,220 @@ Font Weight: 400 e 500 */
     --background: #191816;
     --form-background: #24221f;
     --primary-color: #ffc632;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-left {
+    display: flex;
+    align-items: center;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.text-base {
+    color: var(--text-base);
+    font-size: 1em;
+}
+
+body {
+    background-color: var(--background);
+    display: flex;
+}
+
+#logo {
+    position: absolute;
+    margin: 0.9375em;
+}
+
+main {
+    width: 50vw;
+    height: 100vh;
+}
+
+.side-image>img {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    pointer-events: none;
+}
+
+.login {
+    width: 70%;
+    height: 60%;
+    background-color: var(--form-background);
+    border-radius: 0.3125em;
+}
+
+form {
+    width: inherit;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    margin-bottom: 0.9375em;
+}
+
+.title>img {
+    margin-right: 0.625em;
+}
+
+.title>p {
+    color: var(--text-title);
+    font-size: 1.5em;
+}
+
+.user-info {
+    width: 100%;
+}
+
+#email,
+#password {
+    width: 89%;
+    height: 2.75em;
+    color: var(--text-base);
+    background-color: var(--form-background);
+    border: solid 0.125em var(--text-base);
+    border-radius: 0.3125em;
+    padding-left: 11%;
+}
+
+#email {
+    background: url(/Login-Form-Css-Rocketseat/images/mail.svg) 3% no-repeat;
+    margin-top: 0.3125em;
+    margin-bottom: 1.25em;
+}
+
+#password {
+    margin-top: 0.3125em;
+    margin-bottom: 1.25em;
+    background: url(/Login-Form-Css-Rocketseat/images/lock.svg) 3% no-repeat, url(/Login-Form-Css-Rocketseat/images/eye.svg) 99% no-repeat;
+}
+
+#forgot-password {
+    font-size: 0.875em;
+    color: var(--primary-color);
+}
+
+.user-login {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.25em;
+}
+
+button {
+    width: 100%;
+    height: 2.75em;
+    font-size: 1.125em;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.3125em;
+    color: var(--form-background);
+    margin-bottom: 1.25em;
+    cursor: pointer;
+}
+
+form>p,
+p>a {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 1.25em;
+    width: 1.25em;
+    background-color: var(--form-background);
+    border: solid 1px var(--text-base);
+    border-radius: 0.3125em;
+    margin-right: 0.3125em;
+    cursor: pointer;
+    outline: none;
+}
+
+.checkbox>label {
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+input[type="checkbox"]:after {
+    content: url(/Login-Form-Css-Rocketseat/images/check.svg);
+    display: none;
+}
+
+input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+#email:focus {
+    outline: none;
+    border: solid 0.1875em var(--primary-color);
+    background-image: url(/Login-Form-Css-Rocketseat/images/mail-focus.svg);
+}
+
+#password:focus {
+    outline: none;
+    border: solid 0.1875em var(--primary-color);
+    background-image: url(/Login-Form-Css-Rocketseat/images/lock-focus.svg);
+}
+
+@media screen and (max-width: 41.25em) {
+    .side-image {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .login {
+        width: 90vw;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-height: 48.125em) {
+    .login {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 73.75em) {
+    .side-image {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+    }
 }
